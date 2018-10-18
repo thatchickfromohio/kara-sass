@@ -18,18 +18,16 @@ ul {
   min-height: 100%;
   display: flex; }
 
-.nav {
-  width: 15%;
-  min-width: 140px;
-  color: #1a94aa;
-  padding-top: 55px;
-  padding-right: 30px;
-  text-align: center; }
+a:link {
+  text-decoration: none; }
+
+a:hover {
+  text-decoration: underline; }
 
 .nav {
   width: 15%;
   min-width: 140px;
-  color: #1a94aa;
+  color: #5989b1;
   padding-top: 55px;
   padding-right: 30px;
   text-align: center; }
@@ -41,25 +39,22 @@ ul {
   width: 85%;
   min-height: 750px;
   min-width: 600px;
-  background-color: #1a94aa; }
-  .main ul {
-    padding-left: 30px; }
+  background-color: #5989b1; }
+  .main > * {
+    padding-left: 100px; }
   .main li {
-    font-size: 0.85rem; }
+    font-size: 0.85rem;
+    text-decoration-color: #5989b1; }
   .main h1 {
     font-size: 62px;
     -webkit-margin-before: 0;
     padding-top: 40px;
     padding-left: 30px; }
-  .main video {
-    padding-left: 30px; }
   .main p {
-    padding-left: 30px;
     width: 55%;
     min-width: 550px; }
   .main a {
     color: inherit;
-    padding-left: 30px;
     text-decoration: none; }
   .main a:hover {
     text-decoration: underline; }
