@@ -1,10 +1,10 @@
 html, body {
   margin: 0;
   font-family: Arial;
-  color: #FFF; }
+  color: white; }
 
 p, a {
-  font-size: 0.75rem; }
+  font-size: 1rem; }
 
 img {
   padding-left: 30px;
@@ -19,10 +19,15 @@ ul {
   display: flex; }
 
 a:link {
-  text-decoration: none; }
+  text-decoration: none;
+  color: #5989b1; }
 
 a:hover {
-  text-decoration: underline; }
+  text-decoration: underline;
+  color: orange; }
+
+a:visited {
+  color: #5989b1; }
 
 .nav {
   width: 15%;
@@ -31,9 +36,13 @@ a:hover {
   padding-top: 55px;
   padding-right: 30px;
   text-align: center; }
-  .nav h4 {
-    -webkit-margin-before: 0;
-    margin-left: 50px; }
+
+h4 {
+  -webkit-margin-before: 0;
+  margin-left: 50px; }
+
+.citylist {
+  margin-left: 15px; }
 
 .main {
   width: 85%;
